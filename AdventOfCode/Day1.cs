@@ -7,7 +7,7 @@ namespace AdventOfCode
 {
     class Day1
     {
-        const string AOCPath = "C:\\Users\\finns\\source\\repos\\AdventOfCode\\AdventOfCode";
+        const string AOCPath = "";
         static void FakeMain(string[] args)
         {
             List<int> dates = new List<int>();

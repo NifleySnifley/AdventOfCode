@@ -7,6 +7,6 @@ namespace AdventOfCode
 {
     class Program
     {
-        const string AOCPath = "C:\\Users\\finns\\source\\repos\\AdventOfCode\\AdventOfCode\\Data.txt";
+        const string AOCPath = "";
     }
 }

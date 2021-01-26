@@ -7,7 +7,7 @@ namespace Day3
 {
     class Program
     {
-        const string AOCPath = "C:\\Users\\finns\\source\\repos\\AdventOfCode\\AdventOfCode\\Data.txt";
+        const string AOCPath = "";
 
         static void Main(string[] args)
         {
