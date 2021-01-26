@@ -7,7 +7,7 @@ namespace AdventOfCode
 {
     class Day1
     {
-        const string AOCPath = "";
+        const string AOCPath = "../../../data.txt";
         static void FakeMain(string[] args)
         {
             List<int> dates = new List<int>();
