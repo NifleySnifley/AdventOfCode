@@ -8,7 +8,7 @@ namespace AdventOfCode
 {
     class Day2
     {
-        const string AOCPath = "C:\\Users\\finns\\source\\repos\\AdventOfCode\\AdventOfCode\\Data.txt";
+        const string AOCPath = "";
 
 
         static void FakeMain(string[] args)
