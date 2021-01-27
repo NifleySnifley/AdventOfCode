@@ -52,7 +52,7 @@ namespace AdventOfCode
             Regex.IsMatch(value, "^[0-9]{9}$");
         
 
-        static void Main(string[] args)
+        static void FakeMain(string[] args)
         {
             // Read all lines
             string[] passports = File.ReadAllLines(AOCPath);
