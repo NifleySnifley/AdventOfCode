@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace AdventOfCode
 {
-    class Day0
+    class Day5
     {
         const string AOCPath = "../../../data.txt";
 
