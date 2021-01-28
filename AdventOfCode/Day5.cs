@@ -13,10 +13,10 @@ namespace AdventOfCode
 
         const string AOCPath = "../../../data.txt";
 
-        static void Main(string[] args)
+        static void FakeMain(string[] args)
         {
             string[] codes = File.ReadAllLines(AOCPath);
-            int seatID = 0;
+            List<int> seatIDs = new List<int>();
 
             // For every seat code
             foreach (string code in codes)
@@ -38,9 +38,20 @@ namespace AdventOfCode
                     else if (character == 'R') columnStart = TakeUpper(columnStart, ColumnEnd);
                 }
                 int column = columnStart;
-                seatID = Math.Max(row * 8 + column, seatID);
+                seatIDs.Add(row * 8 + column);
             }
-            Console.WriteLine(seatID);
+            int[] sortedSeatIDs = seatIDs.OrderBy(x => x).ToArray();
+
+            Console.WriteLine($"1: {sortedSeatIDs.Max()}");
+            for (int i = 1; i < sortedSeatIDs.Length - 1; i++)
+            {
+                if (sortedSeatIDs[i - 1] != sortedSeatIDs[i] - 1)
+                {
+                    Console.WriteLine($"Part 2: {sortedSeatIDs[i] - 1}");
+                    break;
+                }
+            }
+            
         }
     }
 }
