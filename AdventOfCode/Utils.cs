@@ -6,7 +6,7 @@ using System.IO;
 using System.Web;
 
 public class Utils {
-	public const string AOCPath = "../../../data.txt";
+	public const string InputPath = "../../../data.txt";
 	public static string GetWebData(string URL) {
 		WebRequest request = WebRequest.Create(URL);
 		Console.WriteLine();

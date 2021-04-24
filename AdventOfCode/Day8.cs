@@ -44,11 +44,10 @@ namespace AdventOfCode {
 					};
 				}
 			}
-			return false;
 		}
 
 		public static void Main() {
-			string[] opcodes = File.ReadAllLines(AOCPath);
+			string[] opcodes = File.ReadAllLines(InputPath);
 			for (int o = 0; o < opcodes.Length; o++) {
 				// Copy the opcodes
 				string[] copy = new string[opcodes.Length]; opcodes.CopyTo(copy, 0);

@@ -12,7 +12,7 @@ namespace AdventOfCode
         static void FakeMain(string[] args)
         {
             // Split at empty lines
-            string[] lines = File.ReadAllText(AOCPath).Split("\r\n\r\n");
+            string[] lines = File.ReadAllText(InputPath).Split("\r\n\r\n");
             
 
         }

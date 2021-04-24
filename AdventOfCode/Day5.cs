@@ -14,7 +14,7 @@ namespace AdventOfCode
 
         static void FakeMain(string[] args)
         {
-            string[] codes = File.ReadAllLines(AOCPath);
+            string[] codes = File.ReadAllLines(InputPath);
             List<int> seatIDs = new List<int>();
 
             // For every seat code

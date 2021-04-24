@@ -12,7 +12,7 @@ namespace AdventOfCode
         static void FakeMain(string[] args)
         {
             int validpasswords = 0;
-            foreach (string line in File.ReadAllLines(AOCPath))
+            foreach (string line in File.ReadAllLines(InputPath))
             {
                 string formattedLine = Regex.Replace(line, @"[:]", "");
                 string[] sections = formattedLine.Split(' ');

@@ -54,7 +54,7 @@ namespace AdventOfCode
         static void FakeMain(string[] args)
         {
             // Read all lines
-            string[] passports = File.ReadAllLines(AOCPath);
+            string[] passports = File.ReadAllLines(InputPath);
             
             // Dict to store validation functions and related keys
             var reqFields = new Dictionary<string, Func<string, bool>>

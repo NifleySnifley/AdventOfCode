@@ -11,7 +11,7 @@ namespace AdventOfCode
         static void FakeMain(string[] args)
         {
             List<int> dates = new List<int>();
-            foreach (string line in File.ReadAllLines(AOCPath + "\\Data.txt"))
+            foreach (string line in File.ReadAllLines(InputPath + "\\Data.txt"))
             {
                 dates.Add(int.Parse(line));
             }

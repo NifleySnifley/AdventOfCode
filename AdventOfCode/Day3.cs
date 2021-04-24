@@ -15,7 +15,7 @@ namespace Day3
             List<string> charArray = new List<string>();
 
             bool[][] booleantrees = (
-                from line in File.ReadAllLines(AOCPath)
+                from line in File.ReadAllLines(InputPath)
                 where !string.IsNullOrWhiteSpace(line)
                 select (
                     from @char in line
