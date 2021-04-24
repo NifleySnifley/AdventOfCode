@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using static Utils;
 
 namespace AdventOfCode
 {
     class Day1
     {
-        const string AOCPath = "../../../data.txt";
         static void FakeMain(string[] args)
         {
             List<int> dates = new List<int>();

@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Linq;
+using static Utils;
 
 namespace AdventOfCode
 {
@@ -10,8 +11,6 @@ namespace AdventOfCode
     {
         static Func<int, int, int> TakeLower = (start, end) => (int) Math.Floor(((float) start + (float) end) / 2);
         static Func<int, int, int> TakeUpper = (start, end) => (int) Math.Ceiling(((float) start + (float) end) / 2);
-
-        const string AOCPath = "../../../data.txt";
 
         static void FakeMain(string[] args)
         {

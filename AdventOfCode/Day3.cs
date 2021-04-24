@@ -4,13 +4,12 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Text;
 using System.Linq;
+using static Utils;
 
 namespace Day3
 {
     class Program
     {
-        const string AOCPath = "../../../data.txt";
-
         static void FakeMain(string[] args)
         {
             List<string> charArray = new List<string>();

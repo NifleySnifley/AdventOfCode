@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.IO;
+using static Utils;
 
 namespace AdventOfCode
 {
     class Day2
     {
-        const string AOCPath = "../../../data.txt";
-
-
         static void FakeMain(string[] args)
         {
             int validpasswords = 0;

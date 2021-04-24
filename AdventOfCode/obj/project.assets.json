@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\finns\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+      "projectUniqueName": "C:\\Users\\finns\\Desktop\\Coding\\C#\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
       "projectName": "AdventOfCode",
-      "projectPath": "C:\\Users\\finns\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+      "projectPath": "C:\\Users\\finns\\Desktop\\Coding\\C#\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
       "packagesPath": "C:\\Users\\finns\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\finns\\source\\repos\\AdventOfCode\\AdventOfCode\\obj\\",
+      "outputPath": "C:\\Users\\finns\\Desktop\\Coding\\C#\\AdventOfCode\\AdventOfCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

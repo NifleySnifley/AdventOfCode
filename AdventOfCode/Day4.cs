@@ -4,13 +4,12 @@ using System.Text;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Linq;
+using static Utils;
 
 namespace AdventOfCode
 {
     class Day4
     {
-        const string AOCPath = "../../../data.txt";
-        
         // Validation functions (lambda syntax)
         static bool ValidateByr(string input) =>
             input.Length == 4 &&

@@ -361,3 +361,13 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+AdventOfCode/obj/project.assets.json
+AdventOfCode/obj/project.nuget.cache
+AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.assets.cache
+AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.csproj.CoreCompileInputs.cache
+AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.csproj.FileListAbsolute.txt
+AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.csprojAssemblyReference.cache
+AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.dll
+AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.genruntimeconfig.cache
+AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.pdb
+AdventOfCode/obj/AdventOfCode.csproj.nuget.dgspec.json
